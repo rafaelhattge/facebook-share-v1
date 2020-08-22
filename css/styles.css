@@ -4,7 +4,12 @@ body {
 }
 
 img {
-    width: 100%;
+  width: 100%;
+}
+
+iframe {
+  height: 50px !important;
+  width: 100px !important;
 }
 
 .container {
@@ -19,9 +24,16 @@ img {
 }
 
 .certificado {
-    width: 400px;
+  width: 400px;
 }
 
 .fb-share-button {
-    margin-top: 1em;
+  margin-top: 1em;
+}
+
+._2tga._8j9v {
+  border-radius: 3px;
+  font-size: 18px !important;
+  height: 35px !important;
+  padding: 0 6px;
 }
