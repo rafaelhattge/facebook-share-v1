@@ -2,6 +2,10 @@ body {
   width: 100%;
 }
 
+img {
+    width: 100%;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -12,6 +16,10 @@ body {
   width: 1024;
 }
 
+.certificado {
+    width: 400px;
+}
+
 .fb-share-button {
-    margin-top: 2em;
+    margin-top: 1em;
 }
