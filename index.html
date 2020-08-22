@@ -1,23 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Certificado</title>
+    <!-- You can use Open Graph tags to customize link previews.
+Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
+    <meta property="og:url" content="https://www.your-domain.com/your-page.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Certificado" />
+    <meta property="og:description" content="Your description" />
+    <meta property="og:image" content="https://www.your-domain.com/path/image.jpg" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
     <div class="container">
-        <form action="/pages/certificado.html">
-            <label for="fname">Seu nome:</label><br>
-            <input type="text" id="fname" name="fname" value=""><br>
-            <label for="lname">Nome do Destino:</label><br>
-            <input type="text" id="lname" name="lname" value=""><br><br>
-            <input type="submit" value="Submit">
-        </form>
+        <h1>Seu certificado foi gerado!</h1>
+        <div class="certificado">
+            <img src="../img/certificado.jpg" alt="">
+        </div>
+
+
+        <!-- Load Facebook SDK for JavaScript -->
+        <div id="fb-root"></div>
+        <script>(function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));</script>
+
+        <!-- Your share button code -->
+        <div class="fb-share-button" data-href="../img/certificado.jpg" data-layout="button_count">
+        </div>
     </div>
 </body>
 
