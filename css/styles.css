@@ -13,6 +13,10 @@ iframe {
   width: 100px !important;
 }
 
+h1 {
+  font-size: 1.5em;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -27,7 +31,7 @@ iframe {
 
 .certificado {
   width: 400px;
-  max-width: 90%;
+  max-width: 80%;
 }
 
 .fb-share-button {
